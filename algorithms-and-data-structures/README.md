@@ -1,4 +1,4 @@
-# 
+# Practice-Repo
 
 This includes projects done while learning using HTML, CSS and JavaScript.
 
