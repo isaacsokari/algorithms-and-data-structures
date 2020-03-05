@@ -16,3 +16,4 @@ function findUnique(arr1, arr2) {
 }
 
 console.log(findUnique([5, 56, 3, 6, 42], [3, 52, 64, 6, 85, 56]));
+console.log(findUnique([5, 3, 6], [3, 5, 6]));
