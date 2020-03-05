@@ -3,12 +3,12 @@
 function findUnique(arr1, arr2) {
   let uniqueArr = [];
   for (elem of arr1) {
-    if (!arr2.includes(elem)) {
+    if (!arr2.includes(elem) && !uniqueArr.includes(elem)) {
       uniqueArr.push(elem);
     }
   }
   for (elem of arr2) {
-    if (!arr1.includes(elem)) {
+    if (!arr1.includes(elem) && !uniqueArr.includes(elem)) {
       uniqueArr.push(elem);
     }
   }
@@ -16,4 +16,4 @@ function findUnique(arr1, arr2) {
 }
 
 console.log(findUnique([5, 56, 3, 6, 42], [3, 52, 64, 6, 85, 56]));
-console.log(findUnique([5, 3, 6], [3, 5, 6]));
+console.log(findUnique([5, 3, 6], [3, 5, 3, 6]));
