@@ -1,4 +1,4 @@
-#JavaScript Practice
+# JavaScript Practice
 
 This is a repository of some JS practice including
 
